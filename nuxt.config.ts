@@ -4,5 +4,10 @@ export default defineNuxtConfig({
   // Workaround for Stackblitz on RC12
   experimental: {
     writeEarlyHints: false
+  },
+  content: {
+    highlight: {
+      theme: 'slack-dark'
+    }
   }
 })

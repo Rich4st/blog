@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  rich4st-container: 
+    build: .
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./ouput:/blog/.ouput:ro

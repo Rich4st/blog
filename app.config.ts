@@ -1,6 +1,6 @@
 export default defineAppConfig({
   socials: {
-    twitter: 'Atinux',
-    github: 'Atinux/content-wind'
+    twitter: 'capalotjiang',
+    github: 'Rich4st'
   }
 })
